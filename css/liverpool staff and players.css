@@ -18,13 +18,15 @@ ul	li{display: inline-block;
 	padding-left: 50px;}
 
  a	{color: white;
-	text-decoration: none;}
+	text-decoration: none;
+	}
 
 body 	{width:100%;
-	background-color: lightblue;
-	animation-name: colorchange;
-	animation-duration: 5s;
-	animation-iteration-count: infinite;}
+		background-color: lightblue;
+		animation-name: colorchange;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		}
 
 @keyframes colorchange{0% {background-color: pink;}
 			30% {background-color: green;}
@@ -34,8 +36,16 @@ body 	{width:100%;
 			100% {background-color: red;}
 			}
 
+h1	{text-align: center;
+	font-weight: 700;
+	font-size: x-large;}
+
 section	{width: 100%;
-		margin: 100px;}
+		margin-top: 50px;
+		margin-left: 100px;
+		margin-bottom: 100px;
+		margin-right: 100px;
+		}
 
 div.players	{display: inline-block;
 			width: 150px;
