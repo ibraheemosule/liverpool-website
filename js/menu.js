@@ -31,7 +31,7 @@ function submit(){
 var valu = document.getElementsByClassName("value")[0].value;
 track = parseInt(track) + 1;
 document.getElementsByClassName("numOfTrial")[0].innerText = track;
-if(track==5) {
+if(track==7) {
   document.getElementsByClassName("value")[0].value = 0
   alert(`Random Number is ${guess}.
   Better luck next time`)
