@@ -115,6 +115,7 @@ div input{
 	background-color: seagreen;
 	border-radius: 8%;
 	border: 1px solid rgb(19, 6, 6);
+	color: black;
 }
 p.numOfTrial {
 	margin-top: -2.5%;
@@ -218,11 +219,17 @@ footer ul li {
 	h1 {
 		font-size: 100%;
 	}
+	div input {
+		margin-left: 20%;
+	}
 }
 @media screen and (max-width: 420px){
 	h1 {
 	margin-right: 2%;
 		text-align: center;
+	}
+	article button {
+		margin-left: 35%;
 	}
 
 }
